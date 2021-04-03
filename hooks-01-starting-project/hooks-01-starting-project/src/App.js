@@ -9,7 +9,8 @@ import { render } from 'react-dom';
 const App = props => {
   const authContext = useContext(AuthContext);
 
-  
+   console.log('ali');
+   
   let content =<Auth></Auth>
   if(authContext.isAuth)
   {
