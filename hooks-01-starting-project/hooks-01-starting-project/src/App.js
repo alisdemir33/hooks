@@ -9,8 +9,8 @@ import { render } from 'react-dom';
 const App = props => {
   const authContext = useContext(AuthContext);
 
-   console.log('ali');
-   
+   console.log('master br');
+
   let content =<Auth></Auth>
   if(authContext.isAuth)
   {
