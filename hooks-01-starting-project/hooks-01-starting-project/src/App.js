@@ -11,6 +11,8 @@ const App = props => {
 
   console.log(' custoom hook u burada yazacağız ')
   
+   console.log('master br');
+
   let content =<Auth></Auth>
   if(authContext.isAuth)
   {
