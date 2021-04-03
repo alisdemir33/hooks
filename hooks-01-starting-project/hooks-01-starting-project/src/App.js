@@ -9,6 +9,7 @@ import { render } from 'react-dom';
 const App = props => {
   const authContext = useContext(AuthContext);
 
+  console.log(' custoom hook u burada yazacağız')
   
   let content =<Auth></Auth>
   if(authContext.isAuth)
